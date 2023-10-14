@@ -2,7 +2,7 @@
 Petalinux notes i would love to see, when start to work with Xilinx Zynq-7000 Soc.
 
 #### How to create petalinux project:  
-* [Link](project-creation.md)
+* [Follow this](project-creation.md)
 
 #### How to create Vivado peoject:
 * Follow this [HDL repo](https://github.com/analogdevicesinc/hdl).  
@@ -24,4 +24,5 @@ Sometimes it happened when you stop your build unexpectedly, update your XSA fil
 #### Xilinx DMA:
 * DMA is the way to communicate between logic and CPU.
 	* [This repo](https://github.com/bperez77/xilinx_axidma) contains driver, user library, example applications.  
-	* [This wiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1027702787/Linux+DMA+From+User+Space+2.0) describe how to use DMA in Vivado project, give one-file driver and user space application, much easier to read and to understand.  
+	* [This wiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1027702787/Linux+DMA+From+User+Space+2.0) describe how to use DMA in Vivado project, give one-file driver and user space application,  
+          much easier to read and to understand.  
