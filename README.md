@@ -10,7 +10,6 @@ Petalinux notes i would love to see, when start to work with Xilinx Zynq-7000 So
   Try to use TCL from start to be able to recreate your project from scratch.
 
 #### Petalinux project notes:
-* 
 * If you got and error like below, while building project, you should clean up your project with **petalinux-build -x mrproper**.  
 Sometimes it happened when you stop your build unexpectedly, update your XSA file and start build again.
 	```
