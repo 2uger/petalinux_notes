@@ -11,4 +11,4 @@
 * Create bootable image:  
     `petalinux-package --boot --fsbl --fpga {{path to the .bit file}} --u-boot`
 * [Format SD card](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841655/Prepare+Boot+Medium).  
-* Flast **BOOT.bin, image.ub, boot.scr** into **boot** partition.
+* Flash **BOOT.bin, image.ub, boot.scr** into **boot** partition.

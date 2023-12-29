@@ -6,8 +6,11 @@ Petalinux notes i would love to see, when start to work with Xilinx Zynq-7000 So
 
 #### How to create Vivado peoject:
 * Follow this [HDL repo](https://github.com/analogdevicesinc/hdl).  
+  Using this you would be able to create a skeleton Vivado project for your board.  
+  Try to use TCL from start to be able to recreate your project from scratch.
 
 #### Petalinux project notes:
+* 
 * If you got and error like below, while building project, you should clean up your project with **petalinux-build -x mrproper**.  
 Sometimes it happened when you stop your build unexpectedly, update your XSA file and start build again.
 	```
@@ -26,3 +29,4 @@ Sometimes it happened when you stop your build unexpectedly, update your XSA fil
 	* [This repo](https://github.com/bperez77/xilinx_axidma) contains driver, user library, example applications.  
 	* [This wiki](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1027702787/Linux+DMA+From+User+Space+2.0) describe how to use DMA in Vivado project, give one-file driver and user space application,  
           much easier to read and to understand.  
+* Check axis_example folder for simple examples of AXIS master.
