@@ -3,6 +3,12 @@ Petalinux notes i would love to see, when start to work with Xilinx Zynq-7000 So
 
 #### How to create petalinux project:  
 * [Follow this](project-creation.md)
+* List of requirements:
+```
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install gawk build-essential net-tools xterm autoconf libtool libtinfo5 texinfo zlib1g-dev gcc-multilib libncurses5-dev libncursesw5-dev zlib1g:i386
+```
 
 #### How to create Vivado peoject:
 * Follow this [HDL repo](https://github.com/analogdevicesinc/hdl).  
